@@ -5,3 +5,9 @@
 nginx 实现负载均衡
 redis  订阅服务器之间的消息
 mysql  存储用户信息 群组信息 离线消息
+
+编译命令
+cd build
+rm -rf *
+cmake ..
+make
